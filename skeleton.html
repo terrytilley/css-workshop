@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Skeleton</title>
+  <link rel="stylesheet" href="./css/skeleton.css">
+  <style>
+    .column, .columns {
+      background: #EEE;
+      border-radius: 4px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      line-height: 30px;
+      padding: 15px;
+      margin-bottom: .75rem;
+      font-weight: 600;
+      letter-spacing: .1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- columns should be the immediate child of a .row -->
+    <div class="row">
+      <div class="tweleve columns">Header</div>
+    </div>
+
+    <!-- just use a number and class 'column' or 'columns' -->
+    <div class="row">
+      <div class="nine columns">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet faucibus libero, quis finibus lectus. Sed ut lacinia eros, sed tincidunt justo. Fusce interdum gravida urna, sit amet elementum mauris dapibus vel. Nullam dolor diam, vulputate quis leo eu, rutrum commodo est. Duis efficitur volutpat sollicitudin. Proin eu cursus dolor, at varius ante. Donec accumsan at magna at condimentum. Pellentesque tempor, ligula vitae mollis finibus, purus tellus mollis arcu, nec aliquet felis arcu vel est. Proin dictum porttitor ex ac ornare.</p>
+
+        <p>Sed non imperdiet diam. Sed ultricies enim tellus, vitae rhoncus urna varius quis. Praesent tincidunt consectetur ipsum. Fusce eu fringilla nisl. Pellentesque sodales dapibus felis, id fringilla erat auctor a. Etiam ultrices dui non nisi commodo, at varius mauris aliquam. Praesent id velit metus. Duis in ipsum at nisi finibus tincidunt eget sed mauris. Fusce ut pretium enim. Etiam vitae metus a metus dignissim ultricies a et nulla. Vivamus imperdiet lectus et dui auctor, non ornare tortor ultricies.</p>
+
+        <p>Sed at est felis. Aenean at leo dapibus neque volutpat tincidunt ut et ipsum. Pellentesque accumsan, lectus tincidunt commodo congue, massa erat luctus nisl, et finibus mi magna quis tellus. Curabitur fringilla at dui ut accumsan. Nulla laoreet metus eget est euismod, ut hendrerit augue vestibulum. Nam mattis, eros sed porttitor auctor, enim lorem pellentesque nulla, vitae dapibus libero felis nec metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur semper, quam eu pulvinar convallis, ligula enim finibus sapien, in aliquet mauris sem sit amet risus. Proin mollis iaculis malesuada.</p>
+      </div>
+      <div class="three columns">Sidebar</div>
+    </div>
+
+    <!-- there are a few shorthand columns widths as well -->
+    <div class="row">
+      <div class="one-third column">1/3</div>
+      <div class="one-third column">1/3</div>
+      <div class="one-third column">1/3</div>
+    </div>
+    <div class="row">
+      <div class="tweleve columns">Footer</div>
+    </div>
+
+  </div>
+</body>
+</html>
